@@ -1,5 +1,5 @@
 export { FicheLogement } from "./FicheLogement";
-export { Caroussel } from "./Caroussel";
-export { Titre } from "./Titre";
-export { Description } from "./Description";
-export { Equipements } from "./Equipements";
+export { Caroussel } from "./Caroussel/Caroussel";
+export { Titre } from "./Titre/Titre";
+export { Description } from "./Description/Description";
+export { Equipements } from "./Equipements/Equipements";
