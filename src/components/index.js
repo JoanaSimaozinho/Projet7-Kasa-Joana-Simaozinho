@@ -9,4 +9,4 @@ export { default as Equipements } from "./FicheLogement/Equipements/Equipements"
 export { default as APropos } from "./APropos/APropos";
 export { default as ErrorPage } from "./ErrorPage/ErrorPage";
 export { default as Footer } from "./Footer/Footer";
-export { default as RoutesPages } from "./RoutesPages/RoutesPages";
+// export { default as RoutesPages } from "./RoutesPages/RoutesPages";

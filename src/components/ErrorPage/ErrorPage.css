@@ -1,3 +1,57 @@
 .body {
   margin: 20px;
 }
+
+/* PART 404 */
+
+.errorPage h1 {
+  /* 404 */
+
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 142.6%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ff6060;
+  margin-left: 27%;
+}
+
+.errorPage p {
+  /* Oups! La page que vous demandez n'existe pas. */
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 142.6%;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #ff6060;
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 50px;
+}
+
+.goToHome {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 142.6%;
+  display: flex;
+  align-items: flex-end;
+  text-decoration-line: underline;
+  text-align: center;
+  margin-left: 20%;
+  margin-top: 8%;
+  color: #ff6060;
+  margin-bottom: 10%;
+}
