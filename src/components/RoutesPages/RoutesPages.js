@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Routes, Route } from "react-router-dom";
-import { Home, FicheLogement, APropos, ErrorPage } from "./components";
+import { Route, Routes } from "react-router-dom";
+import { Home, FicheLogement, APropos, ErrorPage } from "../index";
 
 function RoutesPages() {
   return (
