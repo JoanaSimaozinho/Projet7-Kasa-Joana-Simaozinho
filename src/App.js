@@ -7,7 +7,7 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
       {/* <RoutesPages /> */}
       <Routes>
         {/* Route Home */}
