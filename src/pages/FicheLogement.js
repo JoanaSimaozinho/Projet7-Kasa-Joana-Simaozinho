@@ -1,9 +1,11 @@
 import * as React from "react";
-import Caroussel from "./Caroussel/Caroussel";
-import Description from "./Description/Description";
-import Equipements from "./Equipements/Equipements";
+import {
+  Caroussel,
+  Description,
+  Equipements,
+  Titre,
+} from "../components/index";
 import "./FicheLogement.css";
-import Titre from "./Titre/Titre";
 
 function FicheLogement() {
   return (
