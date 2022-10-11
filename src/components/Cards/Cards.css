@@ -24,11 +24,12 @@ figcaption {
 }
 
 .figcaption {
-  width: 30%;
+  width: 35%;
 }
 
 .HomeParagraphCards {
   font-size: 18px;
   font-weight: 500;
   color: white;
+  margin-left: 16px;
 }
