@@ -4,7 +4,7 @@ import {
   Description,
   Equipements,
   Titre,
-} from "../components/index";
+} from "../../components/index";
 import "./FicheLogement.css";
 
 function FicheLogement() {

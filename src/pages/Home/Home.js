@@ -1,5 +1,5 @@
 import * as React from "react";
-import Cards from "../components/Cards/Cards";
+import Cards from "../../components/Cards/Cards";
 import "./Home.css";
 
 function Home() {
