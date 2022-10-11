@@ -1,3 +1,17 @@
 .body {
   margin: 20px;
 }
+
+.card {
+  background-image: url(../../../public/img/backgroundhome.png);
+  filter: brightness(0.9);
+}
+
+.HomeParagraph {
+  font-size: 24px;
+  color: white;
+  width: 70%;
+  filter: drop-shadow(2px 4px 6px black);
+  font-weight: 500;
+  margin-left: 16px;
+}

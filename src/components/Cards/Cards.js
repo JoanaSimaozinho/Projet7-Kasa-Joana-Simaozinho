@@ -1,11 +1,14 @@
 import * as React from "react";
-import CardHome from "./CardHome";
 import "./Cards.css";
 
 function Cards() {
   return (
     <div>
-      <CardHome />
+      <figure className="cards figure">
+        <figcaption className="figcaption">
+          <p className="HomeParagraphCards">Titre de la location</p>
+        </figcaption>
+      </figure>
     </div>
   );
 }
