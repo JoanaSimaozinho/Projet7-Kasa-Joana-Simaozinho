@@ -1,0 +1,17 @@
+.avis {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars {
+  color: #e3e3e3;
+}
+
+.stars:hover {
+  cursor: pointer;
+  color: #ff6060;
+}
+
+.name {
+  color: #ff6060;
+}

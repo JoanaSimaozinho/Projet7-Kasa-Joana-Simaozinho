@@ -10,6 +10,9 @@ function FicheLogement() {
       <Location />
       <Tags />
       <Avis />
+
+      <div>Description</div>
+      <div>Equipements</div>
     </div>
   );
 }
