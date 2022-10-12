@@ -1,0 +1,15 @@
+.componentCarousel {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.slideshow {
+  display: "block";
+  width: 95%;
+  padding: 30px;
+}
+
+.slider {
+  display: block;
+  width: 100%;
+}
