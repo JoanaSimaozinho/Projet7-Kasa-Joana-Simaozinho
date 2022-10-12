@@ -1,19 +1,15 @@
 import * as React from "react";
-import {
-  Caroussel,
-  Description,
-  Equipements,
-  Titre,
-} from "../../components/index";
+import { Slideshow, Titre, Tags, Avis, Location } from "../../components/index";
 import "./FicheLogement.css";
 
 function FicheLogement() {
   return (
     <div className="body">
-      <Caroussel />
+      <Slideshow />
       <Titre />
-      <Description />
-      <Equipements />
+      <Location />
+      <Tags />
+      <Avis />
     </div>
   );
 }

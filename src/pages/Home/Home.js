@@ -1,16 +1,11 @@
 import * as React from "react";
-import Cards from "../../components/Cards/Cards";
+import { Banner, Cards } from "../../components/index";
 import "./Home.css";
 
 function Home() {
   return (
     <div className="body">
-      <figure className="cards card">
-        <figcaption>
-          <p className="HomeParagraph">Chez vous, partout et ailleurs</p>
-        </figcaption>
-      </figure>
-
+      <Banner />
       <Cards />
     </div>
   );

@@ -1,8 +1,8 @@
 import * as React from "react";
-import "./Equipements.css";
+import "./Location.css";
 
-function Equipements() {
+function Location() {
   return <div>Equipements du logement de l'annonce</div>;
 }
 
-export default Equipements;
+export default Location;
