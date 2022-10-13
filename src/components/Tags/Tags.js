@@ -6,8 +6,6 @@ function Tags() {
     <div className="mb-tags">
       <div className="tags">
         <div className="tag">cozy</div>
-        <div className="tag">canal</div>
-        <div className="tag">paris 10</div>
       </div>
     </div>
   );

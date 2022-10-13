@@ -15,7 +15,10 @@ function FicheLogement() {
       <Slideshow />
       <Titre />
       <Location />
-      <Tags />
+      <div className="divTags">
+        <Tags />
+        <Tags />
+      </div>
       <Avis />
 
       <div>
