@@ -1,5 +1,12 @@
 import * as React from "react";
-import { Slideshow, Titre, Tags, Avis, Location } from "../../components/index";
+import {
+  Slideshow,
+  Titre,
+  Tags,
+  Avis,
+  Location,
+  Collapse,
+} from "../../components/index";
 import "./FicheLogement.css";
 
 function FicheLogement() {
@@ -11,8 +18,12 @@ function FicheLogement() {
       <Tags />
       <Avis />
 
-      <div>Description</div>
-      <div>Equipements</div>
+      <div>
+        <Collapse />
+      </div>
+      <div>
+        <Collapse />
+      </div>
     </div>
   );
 }

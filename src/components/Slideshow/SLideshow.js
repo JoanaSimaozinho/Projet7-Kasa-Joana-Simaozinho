@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -25,7 +25,7 @@ export default function Slideshow() {
         rewind={true}
       >
         <SwiperSlide>
-          <img src="../../../img/logo.svg" alt="photo" className="images" />
+          <img src="../../../img/logo.svg" alt="photos" className="images" />
         </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>

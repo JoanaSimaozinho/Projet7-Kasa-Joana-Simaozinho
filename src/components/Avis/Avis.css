@@ -4,10 +4,16 @@
 }
 
 .stars {
+  display: flex;
+}
+
+.star {
+  width: 15px;
+  height: 15px;
   color: #e3e3e3;
 }
 
-.stars:hover {
+.star:hover {
   cursor: pointer;
   color: #ff6060;
 }
