@@ -6,6 +6,12 @@
   );
 }
 
+.btn {
+  width: 100%;
+  border: 0px;
+  background-color: transparent;
+}
+
 .cards:hover {
   cursor: pointer;
 }
@@ -35,5 +41,6 @@ figcaption {
   font-size: 18px;
   font-weight: 500;
   color: white;
-  margin-left: 16px;
+  margin-left: 10px;
+  text-align: start;
 }
