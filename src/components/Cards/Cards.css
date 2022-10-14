@@ -6,6 +6,10 @@
   );
 }
 
+.cards:hover {
+  cursor: pointer;
+}
+
 figure {
   margin: 0;
   margin-bottom: 22px;

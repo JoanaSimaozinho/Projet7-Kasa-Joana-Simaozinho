@@ -20,13 +20,9 @@ function FicheLogement() {
         <Tags />
       </div>
       <Avis />
-
-      <div>
-        <Collapse />
-      </div>
-      <div>
-        <Collapse />
-      </div>
+      <Collapse />
+      
+      
     </div>
   );
 }

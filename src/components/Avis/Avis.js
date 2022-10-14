@@ -5,7 +5,6 @@ function Avis() {
   return (
     <div>
       <div className="avis">
-        {/* Etoiles et nom de la personne qui a donné son avis */}
         <div className="stars">
           <svg
             xmlns="http://www.w3.org/2000/svg"
