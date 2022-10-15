@@ -1,12 +1,15 @@
 import * as React from "react";
 import "./Location.css";
 
-function Location() {
+export default function Location(props) {
+  const annonces = require('../../annonces.json')
+  console.log(annonces[0].location);
+
   return (
     <div className="mb-location">
-      <div className="location">localisation de l'annonce</div>
+      <div className="location">{props.location}</div>
     </div>
   );
 }
 
-export default Location;
+

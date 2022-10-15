@@ -12,7 +12,9 @@ import "./Slideshow.css";
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
-export default function Slideshow() {
+export default function Slideshow(props) {
+  const annonces = require('../../annonces.json')
+  console.log(annonces[0].pictures);
   return (
     <>
       <Swiper
@@ -25,16 +27,8 @@ export default function Slideshow() {
         rewind={true}
       >
         <SwiperSlide>
-          <img src="../../../img/logo.svg" alt="photos" className="images" />
+          <img src={props.pictures} alt="photos" className="images" />
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
     </>
   );

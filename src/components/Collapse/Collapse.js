@@ -1,7 +1,10 @@
 import * as React from "react";
 import "./Collapse.css";
 
-function Collapse() {
+export default function Collapse(props) {
+  const annonces = require('../../annonces.json')
+  console.log(annonces[0].description);
+  console.log(annonces[0].equipments);
 
   const caracteristiques = document.querySelectorAll('.caracteristiques')
 
@@ -27,7 +30,7 @@ function Collapse() {
         <i className="fas fa-chevron-down icon"></i>
       </div>
       <div className="informations">
-        <p>dfgh</p>
+        <p>{props.description}</p>
       </div>
 
       {/* collapse 2 */}
@@ -36,11 +39,11 @@ function Collapse() {
         <i className="fas fa-chevron-down icon"></i>
       </div>
       <div className="informations">
-        <p>dfgh</p>
+        <p>{props.equipments}</p>
       </div>
     </div>
   );
 }
 
-export default Collapse;
+
 

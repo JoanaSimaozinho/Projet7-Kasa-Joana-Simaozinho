@@ -1,12 +1,15 @@
 import * as React from "react";
 import "./Titre.css";
 
-function Titre() {
+export default function Titre(props) {
+  const annonces = require('../../annonces.json')
+  console.log(annonces[0].title);
+
+
   return (
     <div className="mb-title">
-      <div className="titre">Titre de l'annonce</div>
+      <div className="titre">{props.title}</div>
     </div>
   );
 }
 
-export default Titre;
