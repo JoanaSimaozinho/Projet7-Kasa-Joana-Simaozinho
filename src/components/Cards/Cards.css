@@ -3,38 +3,31 @@
     180deg,
     rgba(255, 255, 255, 0) 0%,
     rgba(0, 0, 0, 0.5) 100%
+    
   );
+
 }
 
-.btn {
-  width: 100%;
-  border: 0px;
-  background-color: transparent;
+.cardHome {
+    margin: 0;
+  margin-bottom: 22px;
+  background: #ff6060;
+  border-radius: 10px;
+  font-style: none;
+  height: 255px;
+
 }
 
 .cards:hover {
   cursor: pointer;
 }
 
-figure {
-  margin: 0;
-  margin-bottom: 22px;
-  background: #ff6060;
-  border-radius: 10px;
-}
 
-figcaption {
-  padding: 4px;
-}
-
-.figure {
-  height: 255px;
+.li {
+  width: 35%;
   display: flex;
   align-items: flex-end;
-}
-
-.figcaption {
-  width: 35%;
+  list-style: none;
 }
 
 .HomeParagraphCards {
@@ -43,4 +36,5 @@ figcaption {
   color: white;
   margin-left: 10px;
   text-align: start;
+  text-decoration: none;
 }

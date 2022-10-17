@@ -6,6 +6,11 @@ export default function Collapse(props) {
   console.log(annonces[0].description);
   console.log(annonces[0].equipments);
 
+
+
+  const clic = event => {
+    console.log(event.currentTarget.toggle('fa-chevron-up'));
+  }
   const caracteristiques = document.querySelectorAll('.caracteristiques')
 
   caracteristiques.forEach((item) => {
@@ -14,9 +19,8 @@ export default function Collapse(props) {
       console.log('item cliqué');
       const next = item.nextElementSibling
       next.classList.toggle('visible')
-      // icone = item.lastElementChild
-      // console.log(icone);
-      // icone.classList.toggle('fa-chevron-up')
+      const icone = item.lastElementChild
+      icone.classList.toggle('fa-chevron-up')
     })
   })
 
@@ -27,19 +31,10 @@ export default function Collapse(props) {
       {/* collapse 1 */}
       <div className="caracteristiques">
         <p>description</p>
-        <i className="fas fa-chevron-down icon"></i>
+        <i className="fas fa-chevron-down icon" onClick={clic}></i>
       </div>
       <div className="informations">
         <p>{props.description}</p>
-      </div>
-
-      {/* collapse 2 */}
-      <div className="caracteristiques">
-        <p>Equipements</p>
-        <i className="fas fa-chevron-down icon"></i>
-      </div>
-      <div className="informations">
-        <p>{props.equipments}</p>
       </div>
     </div>
   );

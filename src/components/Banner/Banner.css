@@ -11,3 +11,14 @@
   font-weight: 500;
   margin-left: 16px;
 }
+
+.figure {
+  margin: 0;
+  margin-bottom: 22px;
+  border-radius: 10px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+

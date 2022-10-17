@@ -9,7 +9,7 @@ function RoutesPages() {
         {/* Route Home */}
         <Route path="/" element={<Home />} />
         {/* route FicheLogement */}
-        <Route path="fichelogement" element={<FicheLogement />} />
+        <Route path="fichelogement/:id" element={<FicheLogement />} />
         {/* Route APropos */}
         <Route path="apropos" element={<APropos />} />
         {/* route ErrorPage */}
