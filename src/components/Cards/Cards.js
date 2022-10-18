@@ -12,7 +12,6 @@ export default function Cards(props) {
       <ul className="cards cardHome">
         {annonces.map((annonce) => <li className="li" key={annonce.id}>
           <Link className="HomeParagraphCards" to={"/fichelogement/" + annonce.id}>{annonce.pictures}</Link>
-          <Link className="HomeParagraphCards" to={"/fichelogement/" + annonce.id}><Slideshow /></Link>
           <Link className="HomeParagraphCards" to={"/fichelogement/" + annonce.id}>{annonce.title}</Link>
         </li> )}
       </ul>
