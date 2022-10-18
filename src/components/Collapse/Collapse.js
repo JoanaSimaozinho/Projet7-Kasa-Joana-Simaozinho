@@ -26,15 +26,31 @@ export default function Collapse(props) {
 
 
   return (
-    <div className="accordeon">
-      <div className="caracteristiques">
-        <p>description</p>
-        <i className="fas fa-chevron-down icon" onClick={clic}></i>
-      </div>
-      <div className="informations">
-        <p className="paragraphCollapse">{annonces.description}</p>
-      </div>
+    <div>
+      {annonces.map((annonce) => 
+        <div className="accordeon">
+          <div className="caracteristiques">
+            <p>description</p>
+            <i className="fas fa-chevron-down icon" onClick={clic}></i>
+          </div>
+          <div className="informations">
+            <p className="paragraphCollapse">{annonce.description}</p>
+          </div>
+        </div>
+      )}
+      {annonces.map((annonce) => 
+        <div className="accordeon">
+          <div className="caracteristiques">
+            <p>Equipements</p>
+            <i className="fas fa-chevron-down icon" onClick={clic}></i>
+          </div>
+          <div className="informations">
+            <p className="paragraphCollapse">{annonce.equipments}</p>
+          </div>
+        </div>
+        )}
     </div>
+    
   );
 }
 

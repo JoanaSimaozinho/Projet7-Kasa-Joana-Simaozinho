@@ -3,12 +3,15 @@ import "./Titre.css";
 
 export default function Titre(props) {
   const annonces = require('../../annonces.json')
-  console.log(annonces[0].title);
-
+  
 
   return (
-    <div className="mb-title">
-      <div className="titre">{props.title}</div>
+    <div>
+      {annonces.map((annonce) =>
+        <div className="mb-title">
+          <div className="titre">{annonce.title}</div>
+        </div>
+      )}
     </div>
   );
 }

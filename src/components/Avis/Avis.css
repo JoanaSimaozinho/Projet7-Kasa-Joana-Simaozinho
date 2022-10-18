@@ -18,6 +18,18 @@
   color: #ff6060;
 }
 
+.profileDiv {
+  display: flex;
+}
+
 .name {
   color: #ff6060;
+  font-size: 12px;
+  font-weight: 500;
+} 
+
+.profilePicture {
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
 }

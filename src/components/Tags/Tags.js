@@ -3,14 +3,18 @@ import "./Tags.css";
 
 export default function Tags(props) {
   const annonces = require('../../annonces.json')
-  console.log(annonces[0].tags);
 
   return (
-    <div className="mb-tags">
-      <div className="tags">
-        <div className="tag">{props.tags}</div>
-      </div>
+    <div>
+      {annonces.map((annonce) =>
+        <div className="mb-tags">
+          <div className="tags">
+            <div className="tag">{annonce.tags}</div>
+          </div>
+        </div>
+      )}
     </div>
+    
   );
 }
 

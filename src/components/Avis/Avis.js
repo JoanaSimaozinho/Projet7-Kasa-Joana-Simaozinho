@@ -11,24 +11,22 @@ export default function Avis(props) {
   // }
 
   const annonces = require('../../annonces.json')
-  console.log(annonces[0].rating);
-  console.log(annonces[0].host.name);
-  console.log(annonces[0].host.picture);
-  
   
   return (
     <div>
-      <div className="avis">
-        <div className="stars">
-          <img src={props.rating} alt="etoiles colorées" />
-          <img src={props.rating} alt="etoiles grises" />
+      {annonces.map((annonce) =>
+        <div className="avis">
+          <div className="stars">
+            <img src={annonce.rating} alt="etoiles colorées" />
+            <img src={annonce.rating} alt="etoiles grises" />
 
+          </div>
+          <div className="profileDiv">
+            <p className="name">{annonce.host.name}</p>
+            <img src={annonce.host.picture} alt="profil" className="profilePicture" />
+          </div>
         </div>
-        <div className="name">
-          <p>{props.name}</p>
-          <img src={props.picture} alt="profil" />
-        </div>
-      </div>
+      )}
     </div>
   );
 }
