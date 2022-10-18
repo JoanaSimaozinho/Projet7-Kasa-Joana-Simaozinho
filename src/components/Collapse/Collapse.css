@@ -24,3 +24,7 @@
 .visible {
   display: block;
 }
+
+.paragraphCollapse {
+  color: white;
+}

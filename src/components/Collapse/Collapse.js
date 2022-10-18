@@ -3,8 +3,7 @@ import "./Collapse.css";
 
 export default function Collapse(props) {
   const annonces = require('../../annonces.json')
-  console.log(annonces[0].description);
-  console.log(annonces[0].equipments);
+  
 
 
 
@@ -28,13 +27,12 @@ export default function Collapse(props) {
 
   return (
     <div className="accordeon">
-      {/* collapse 1 */}
       <div className="caracteristiques">
         <p>description</p>
         <i className="fas fa-chevron-down icon" onClick={clic}></i>
       </div>
       <div className="informations">
-        <p>{props.description}</p>
+        <p className="paragraphCollapse">{annonces.description}</p>
       </div>
     </div>
   );

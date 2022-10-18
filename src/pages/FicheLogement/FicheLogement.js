@@ -21,19 +21,13 @@ export default function FicheLogement(props) {
   } 
   return (
     <div className="body">
-      {annonce.title}
+      
       <Slideshow />
       <Titre />
       <Location />
-      <div className="divTags">
-        <Tags />
-        <Tags />
-      </div>
+      <Tags />
       <Avis />
-
-      <div>
-        <Collapse />
-      </div>
+      <Collapse />
       
     </div>
   );

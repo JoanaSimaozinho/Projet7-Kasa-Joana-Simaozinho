@@ -14,7 +14,6 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
 export default function Slideshow(props) {
   const annonces = require('../../annonces.json')
-  console.log(annonces[0].pictures);
   return (
     <>
       <Swiper
@@ -26,9 +25,10 @@ export default function Slideshow(props) {
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         rewind={true}
       >
+        {annonces.map((annonce) =>
         <SwiperSlide>
-          <img src={props.pictures} alt="photos" className="images" />
-        </SwiperSlide>
+          <img key={annonce.id} src={annonce.pictures[0]} alt="photos" className="images" />
+        </SwiperSlide>)}
       </Swiper>
     </>
   );
