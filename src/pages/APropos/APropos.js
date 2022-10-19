@@ -7,9 +7,7 @@ function APropos() {
     <div className="body">
       <Banner />
       <Collapse />
-      <Collapse />
-      <Collapse />
-      <Collapse />
+      
     </div>
   );
 }

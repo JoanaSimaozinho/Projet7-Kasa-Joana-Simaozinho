@@ -15,7 +15,7 @@ export default function Avis(props) {
   return (
     <div>
       {annonces.map((annonce) =>
-        <div className="avis">
+        <div key={annonce.id} className="avis">
           <div className="stars">
             <img src={annonce.rating} alt="etoiles colorées" />
             <img src={annonce.rating} alt="etoiles grises" />

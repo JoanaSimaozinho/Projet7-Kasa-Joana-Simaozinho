@@ -9,7 +9,7 @@ export default function Tags(props) {
       {annonces.map((annonce) =>
         <div className="mb-tags">
           <div className="tags">
-            <div className="tag">{annonce.tags}</div>
+            <div key={annonce.id} className="tag">{annonce.tags}</div>
           </div>
         </div>
       )}

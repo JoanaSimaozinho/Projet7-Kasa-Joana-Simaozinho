@@ -9,7 +9,7 @@ export default function Titre(props) {
     <div>
       {annonces.map((annonce) =>
         <div className="mb-title">
-          <div className="titre">{annonce.title}</div>
+          <div key={annonce.id} className="titre">{annonce.title}</div>
         </div>
       )}
     </div>

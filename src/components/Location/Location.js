@@ -9,7 +9,7 @@ export default function Location(props) {
     <div>
       {annonces.map((annonce) =>
         <div className="mb-location">
-          <div className="location">{annonce.location}</div>
+          <div key={annonce.id} className="location">{annonce.location}</div>
         </div>)}
       </div>
   );
