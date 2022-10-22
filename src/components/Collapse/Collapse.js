@@ -17,7 +17,7 @@ export default function Collapse(props) {
   } 
 
   const clic = event => {
-    console.log(this.classList.toggle('fa-chevron-up'));
+    console.log(this.className('fa-chevron-up'));
   }
   // const caracteristiques = document.querySelectorAll('.caracteristiques')
 

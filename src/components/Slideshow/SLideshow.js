@@ -27,7 +27,7 @@ export default function Slideshow(props) {
       >
         {annonces.map((annonce) =>
         <SwiperSlide>
-          <img key={annonce.id} src={annonce.pictures[0]} alt="photos" className="images" />
+          <img key={annonce.pictures} src={annonce.pictures[0]} alt="photos" className="images" />
         </SwiperSlide>)}
       </Swiper>
     </>
