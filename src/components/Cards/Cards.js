@@ -9,14 +9,18 @@ export default function Cards(props) {
   return (
     
     <div>
+
       
       {annonces.map((annonce) =>
+        <Link className="links" to={"/fichelogement/" + annonce.id}>
         <ul className="cards cardHome" key={annonce.id} style={{ backgroundImage: `url(${annonce.cover})` }}>
           <li className="li">
-            <Link className="HomeParagraphCards" to={"/fichelogement/" + annonce.id}>{annonce.title}</Link>
+            <div>{annonce.title}</div>
           </li> 
         </ul>
+        </Link>
       )}
+      
     </div>
   );
 }
