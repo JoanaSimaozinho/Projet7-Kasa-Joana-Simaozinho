@@ -22,13 +22,13 @@ export default function FicheLogement(props) {
   return (
     <div className="body">
       
-      <Slideshow />
-      <Titre />
-      <Location />
-      <Tags />
-      <Avis />
-      <Collapse />
-      
+      <Slideshow pictures={annonce.pictures} />
+      <Titre title={annonce.title} />
+      <Location location={annonce.location} />
+      <Tags tags={annonce.tags} />
+      <Avis rating={annonce.rating} />
+      <Collapse title="Description" content={annonce.description} />
+      <Collapse title="Equipements" content={annonce.equipments} />
     </div>
   );
 }

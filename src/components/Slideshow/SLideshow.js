@@ -13,23 +13,21 @@ import "./Slideshow.css";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
 export default function Slideshow(props) {
-  const annonces = require('../../annonces.json')
   return (
-    <>
-      <Swiper
-        cssMode={true}
-        navigation={true}
-        pagination={true}
-        mousewheel={true}
-        keyboard={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-        rewind={true}
-      >
-        {annonces.map((annonce) =>
+    <Swiper
+      cssMode={true}
+      navigation={true}
+      pagination={true}
+      mousewheel={true}
+      keyboard={true}
+      modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+      rewind={true}
+    >
+      {props.pictures.map((picture, index) => (
         <SwiperSlide>
-          <img key={annonce.pictures} src={annonce.pictures[0]} alt="photos" className="images" />
-        </SwiperSlide>)}
-      </Swiper>
-    </>
+          <img key={index} src={picture} alt="photos" className="images" />
+        </SwiperSlide>
+      ))}
+    </Swiper>
   );
 }
