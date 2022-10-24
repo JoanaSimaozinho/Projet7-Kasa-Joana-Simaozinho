@@ -15,7 +15,7 @@ export default function Collapse(props) {
         <p>{props.title}</p>
         <i
           className={`icon fas ${
-            visible ? "fa-chevron-down" : "fa-chevron-up"
+            visible ? "fa-chevron-up" : "fa-chevron-down"
           }`}
         ></i>
       </div>
