@@ -10,14 +10,17 @@ export default function Avis(props) {
   };
 
   return (
-    <div className="stars">
-      {Array.from({ length: parseInt(props.rating) }, (v, idx) => (
-        <ColoredStar key={"colored-" + idx} />
-      ))}
-      {Array.from({ length: 5 - parseInt(props.rating) }, (v, idx) => (
-        <EmptyStar key={"empty-" + idx} />
-      ))}
+    <div className="avis">
+      <div className="star">
+        {Array.from({ length: parseInt(props.rating) }, (v, idx) => (
+          <ColoredStar key={"colored-" + idx} />
+        ))}
+        {Array.from({ length: 5 - parseInt(props.rating) }, (v, idx) => (
+          <EmptyStar key={"empty-" + idx} />
+        ))}
+      </div>  
     </div>
+
   );
 }
 

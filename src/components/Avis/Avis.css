@@ -1,35 +1,16 @@
 .avis {
   display: flex;
   justify-content: space-between;
+  width: 50%;
 }
 
 .stars {
   display: flex;
+  align-items: center;
 }
 
 .star {
+  display: flex;
   width: 15px;
   height: 15px;
-  color: #e3e3e3;
-}
-
-.star:hover {
-  cursor: pointer;
-  color: #ff6060;
-}
-
-.profileDiv {
-  display: flex;
-}
-
-.name {
-  color: #ff6060;
-  font-size: 12px;
-  font-weight: 500;
-} 
-
-.profilePicture {
-  border-radius: 100%;
-  width: 32px;
-  height: 32px;
 }
