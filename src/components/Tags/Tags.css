@@ -11,7 +11,13 @@
   background: #ff6060;
   border-radius: 5px;
   color: white;
-  width: 70px;
+  width: 100%;
   text-align: center;
   margin-right: 10px;
+}
+
+.tagParagraph {
+  margin: 0;
+  padding-left: 4px;
+  padding-right: 4px;
 }

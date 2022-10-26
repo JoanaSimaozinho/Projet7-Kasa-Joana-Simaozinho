@@ -2,13 +2,14 @@ import * as React from "react";
 import { Banner, Cards } from "../../components/index";
 import "./Home.css";
 
-function Home() {
+
+export default function Home(props) {
+
   return (
     <div className="body">
-      <Banner />
+      <Banner content="Chez vous, partout et ailleurs" />
       <Cards />
     </div>
   );
 }
 
-export default Home;

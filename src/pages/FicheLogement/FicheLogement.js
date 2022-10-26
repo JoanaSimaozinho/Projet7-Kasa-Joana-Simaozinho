@@ -26,7 +26,9 @@ export default function FicheLogement(props) {
       <Slideshow pictures={annonce.pictures} />
       <Titre title={annonce.title} />
       <Location location={annonce.location} />
-      <Tags tags={annonce.tags} />
+      <div className="tags">
+        {annonce.tags.map((tag) => <Tags content={tag} key={tag}/>)}
+      </div>
       <div className="divAvis">
         <Avis rating={annonce.rating} />
       <Avatar name={annonce.host.name} avatar={annonce.host.picture} />

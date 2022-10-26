@@ -1,14 +1,14 @@
 import * as React from "react";
 import "./Banner.css";
 
-function Banner() {
+export default function Banner(props) {
   return (
-    <figure className="cards card figure">
-      <figcaption>
-        <p className="HomeParagraph">Chez vous, partout et ailleurs</p>
-      </figcaption>
-    </figure>
+    <div className="cards card figure">
+      <div>
+        <p className="HomeParagraph">{props.content}</p>
+      </div>
+    </div>
   );
 }
 
-export default Banner;
+

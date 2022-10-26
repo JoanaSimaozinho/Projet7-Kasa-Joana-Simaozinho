@@ -7,7 +7,9 @@ export default function Tags(props) {
     <div>
         <div className="mb-tags">
           <div className="tags">
-            <div className="tag">{props.tags}</div>
+          <div className="tag">
+            <p className="tagParagraph">{props.content}</p>
+          </div>
           </div>
         </div>
     </div>
