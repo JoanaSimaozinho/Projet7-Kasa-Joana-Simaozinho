@@ -10,11 +10,16 @@
   padding-left: 5px;
 }
 
-.informations {
-  color: #777;
-  background-color: #777;
-  padding: 3rem;
+.collapsName {
+  font-size: 13px;
+}
 
+.informations {
+  color: #FF6060;
+  background-color: #F6F6F6;
+  padding-top: 17px;
+  padding-left: 11px;
+  font-size: 12px;
 }
 
 .icon {
@@ -26,5 +31,5 @@
 }
 
 .paragraphCollapse {
-  color: white;
+  color: #FF6060;;
 }

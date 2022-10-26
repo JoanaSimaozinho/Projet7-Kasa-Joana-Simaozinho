@@ -12,7 +12,7 @@ export default function Collapse(props) {
   return (
     <div className="accordeon">
       <div className="caracteristiques" onClick={() => setVisibility(!visible)}>
-        <p>{props.title}</p>
+        <p className="collapsName">{props.title}</p>
         <i
           className={`icon fas ${
             visible ? "fa-chevron-up" : "fa-chevron-down"
