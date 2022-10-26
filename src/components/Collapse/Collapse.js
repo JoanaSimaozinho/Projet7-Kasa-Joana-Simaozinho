@@ -6,7 +6,7 @@ export default function Collapse(props) {
   const [visible, setVisibility] = useState(false);
   const contentType = typeof props.content;
   if (contentType === "object") {
-    props.content.map((item, index) => console.log(item));
+    props.content.map((item, index) => item);
   }
 
   return (

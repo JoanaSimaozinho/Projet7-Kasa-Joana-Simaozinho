@@ -19,6 +19,8 @@
   background-color: #F6F6F6;
   padding-top: 17px;
   padding-left: 11px;
+  padding-right: 2px;
+  padding-bottom: 2px;
   font-size: 12px;
 }
 
@@ -31,5 +33,6 @@
 }
 
 .paragraphCollapse {
-  color: #FF6060;;
+  color: #FF6060;
+  margin: 0;
 }

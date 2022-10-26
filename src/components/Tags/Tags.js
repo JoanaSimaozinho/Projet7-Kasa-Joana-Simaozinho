@@ -10,7 +10,6 @@ export default function Tags(props) {
             <div className="tag">{props.tags}</div>
           </div>
         </div>
-
     </div>
     
   );

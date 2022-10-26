@@ -9,7 +9,7 @@ export default function Avatar(props) {
         <p className="name">{props.name}</p>
       </div>
       <div>
-        <img src={props.avatar} className="profilePicture" />
+        <img src={props.avatar} className="profilePicture" alt="profil" />
       </div>
     </div>
 
