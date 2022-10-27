@@ -1,6 +1,7 @@
 .card {
   background-image: url(../../../public/img/backgroundhome.png);
   filter: brightness(0.9);
+  background-size: cover;
 }
 
 .HomeParagraph {
@@ -19,6 +20,37 @@
   height: 100px;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 425px) {
+  .HomeParagraph {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .HomeParagraph {
+    font-size: 48px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .figure {
+    margin-bottom: 43px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    height: 176px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    height: 223px;
+  }
 }
 
 

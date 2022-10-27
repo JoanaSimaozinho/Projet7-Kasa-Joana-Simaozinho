@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="body">
       <div className="header">
-        <div>
+        <div className="divHeader">
           <img src="../img/logo.svg" alt="logo" className="logo" />
         </div>
         <div className="linksHeader">

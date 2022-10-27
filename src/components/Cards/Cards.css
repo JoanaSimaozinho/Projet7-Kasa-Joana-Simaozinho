@@ -17,7 +17,6 @@
   list-style: none;
   display: flex;
   align-items: flex-end;
-  list-style: none;
   padding: 20px;
 }
 
@@ -39,3 +38,39 @@
   text-align: start;
   text-decoration: none;
 }
+
+@media screen and (min-width: 425px) {
+.divCards {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.links {
+  width: 49%;
+}
+
+.cardHome {
+  height: 153px;
+}
+}
+
+@media screen and (min-width: 768px) {
+  .cardHome {
+    height: 240px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .links {
+    width: 32%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cardHome {
+    height: 353px;
+  }
+}
+
+

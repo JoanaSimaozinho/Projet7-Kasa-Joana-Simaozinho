@@ -6,7 +6,7 @@ function Footer() {
     <div className="footer">
       <div className="footerDisplay">
         <div className="marginTopBottom">
-          <img src="../img/white-logo.svg" alt="logo" />
+          <img src="../img/white-logo.svg" alt="logo" className="logoFooter" />
         </div>
         <div>
           <p className="rightsReserved">© 2020 Kasa. All rights reserved</p>

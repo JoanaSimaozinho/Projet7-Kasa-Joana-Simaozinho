@@ -5,6 +5,11 @@
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.divHeader {
+  width: 50%;
 }
 
 .logo {
@@ -12,18 +17,25 @@
 }
 
 .linksHeader {
-  width: 45%;
   display: flex;
-  justify-content: space-between;
 }
 .link {
   color: #ff6060;
   font-size: 12px;
   text-decoration: none;
   font-weight: 500;
+  margin-left: 16px;
 }
 
 .link:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+
+  .link {
+    font-size: 24px;
+    margin-left: 30px;
+  }
 }
