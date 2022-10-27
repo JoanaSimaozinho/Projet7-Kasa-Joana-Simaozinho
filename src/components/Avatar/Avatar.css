@@ -1,11 +1,13 @@
 .avatar {
   width: 50%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .profileDiv {
   display: flex;
+  margin-right: 10px;
 }
 
 .name {
@@ -18,4 +20,21 @@
   border-radius: 100%;
   width: 32px;
   height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .avatar {
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .profilePicture {
+    width: 64px;
+    height: 64px;
+  }
 }

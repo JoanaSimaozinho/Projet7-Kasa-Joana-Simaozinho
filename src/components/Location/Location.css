@@ -7,3 +7,11 @@
 .mb-location {
   margin-bottom: 10px;
 }
+
+@media screen and (min-width: 768px) {
+  .location {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

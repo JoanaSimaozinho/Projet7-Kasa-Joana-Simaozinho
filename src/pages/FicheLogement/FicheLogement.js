@@ -21,20 +21,26 @@ export default function FicheLogement(props) {
     return <Navigate to="/errorpage" />;
   } 
   return (
-    <div className="body">
-      
+    <div className="body"> 
       <Slideshow pictures={annonce.pictures} />
-      <Titre title={annonce.title} />
-      <Location location={annonce.location} />
-      <div className="tags">
-        {annonce.tags.map((tag) => <Tags content={tag} key={tag}/>)}
+      <div className="divContainerElements">
+        <div>
+          <Titre title={annonce.title} />
+          <Location location={annonce.location} />
+          <div className="tags">
+            {annonce.tags.map((tag) => <Tags content={tag} key={tag}/>)}
+          </div>
+        </div>
+        <div className="divAvis">
+          <Avis rating={annonce.rating} />
+          <Avatar name={annonce.host.name} avatar={annonce.host.picture} />
+        </div>
       </div>
-      <div className="divAvis">
-        <Avis rating={annonce.rating} />
-      <Avatar name={annonce.host.name} avatar={annonce.host.picture} />
-      </div>
-      <Collapse title="Description" content={annonce.description} />
+      <div className="divCollapse">
+        <Collapse title="Description" content={annonce.description} />
       <Collapse title="Equipements" content={annonce.equipments} />
+      </div>
+      
     </div>
   );
 }

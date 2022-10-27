@@ -6,10 +6,10 @@ export default function Location(props) {
 
   return (
     <div>
-        <div className="mb-location">
-          <div className="location">{props.location}</div>
-        </div>
+      <div className="mb-location">
+        <div className="location">{props.location}</div>
       </div>
+    </div>
   );
 }
 

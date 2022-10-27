@@ -11,7 +11,7 @@ export default function Cards(props) {
         <Link className="links" to={"/fichelogement/" + annonce.id}>
         <ul className="cards cardHome" key={annonce.id} style={{ backgroundImage: `url(${annonce.cover})` }}>
           <li className="li">
-            <div>{annonce.title}</div>
+            <div className="textShadow">{annonce.title}</div>
           </li> 
         </ul>
         </Link>
