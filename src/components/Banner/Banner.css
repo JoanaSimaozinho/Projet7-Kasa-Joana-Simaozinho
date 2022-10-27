@@ -3,14 +3,21 @@
   filter: brightness(0.9);
   background-size: cover;
 }
+.container {
+  max-width: 191px;
+}
+
+.divContainer {
+  width: 100%;
+  margin-left: 16px;
+}
 
 .HomeParagraph {
   font-size: 24px;
   color: white;
-  width: 70%;
+  /* width: 70%; */
   filter: drop-shadow(2px 4px 6px black);
   font-weight: 500;
-  margin-left: 16px;
 }
 
 .figure {
@@ -23,17 +30,15 @@
   align-items: center;
 }
 
-@media screen and (min-width: 425px) {
-  .HomeParagraph {
-    margin-left: 0;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .HomeParagraph {
     font-size: 48px;
     width: 100%;
     text-align: center;
+  }
+
+  .container {
+    max-width: 100%;
   }
 
   .figure {
