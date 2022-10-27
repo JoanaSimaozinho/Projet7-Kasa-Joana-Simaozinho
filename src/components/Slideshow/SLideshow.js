@@ -14,7 +14,8 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
 export default function Slideshow(props) {
   return (
-    <Swiper
+    <div>
+      <Swiper
       cssMode={true}
       navigation={true}
       pagination={true}
@@ -29,5 +30,6 @@ export default function Slideshow(props) {
         </SwiperSlide>
       ))}
     </Swiper>
+    </div>
   );
 }
