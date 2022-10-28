@@ -1,3 +1,4 @@
+/* Utilisation de la flexbox pour mettre les étoiles côte à côte */
 .avis {
   display: flex;
   justify-content: space-between;
@@ -16,12 +17,17 @@
   height: 15px;
 }
 
+/* Média query */
 @media screen and (min-width: 768px) {
+
+  /* Mise de l'élément à la fin de la div */
   .avis {
     width: 100%;
     justify-content: flex-end;
   }
 
+  /* Mise de l'élément à la fin de la div et changement de taille
+   */
   .star {
     justify-content: flex-end;
     width: 30px;

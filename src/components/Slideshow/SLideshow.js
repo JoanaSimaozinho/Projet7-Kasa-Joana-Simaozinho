@@ -9,8 +9,10 @@ import "swiper/css/pagination";
 
 import "./Slideshow.css";
 
-// import required modules
+// importation de Navigation, Pagination, Mousewheel et keybors a partir de "swiper"
+// Importation du fichier css
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import "./Slideshow.css"
 
 export default function Slideshow(props) {
   return (
@@ -23,7 +25,10 @@ export default function Slideshow(props) {
       keyboard={true}
       modules={[Navigation, Pagination, Mousewheel, Keyboard]}
       rewind={true}
-    >
+      >
+        
+        {/* Bouclage sur le slider avec .map() pour faire apparaître 
+        les images de la fiche logement cliquée */}
       {props.pictures.map((picture, index) => (
         <SwiperSlide>
           <img key={index} src={picture} alt="photos" className="images" />

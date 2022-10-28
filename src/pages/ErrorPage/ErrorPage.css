@@ -1,17 +1,9 @@
-.body {
-  margin: 20px;
-}
-
-/* PART 404 */
-
+/* éléments pour la mise en place de 404 */
 .errorPage h1 {
-  /* 404 */
   left: 0%;
   right: 0%;
   top: 0%;
   bottom: 0%;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 96px;
   line-height: 142.6%;
@@ -23,12 +15,8 @@
   margin: auto;
 }
 
+/* éléments pour le paragraphe oups */
 .errorPage p {
-  /* Oups! La page que vous demandez n'existe pas. */
-
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 142.6%;
   display: flex;
@@ -42,10 +30,8 @@
   margin-top: 11px;
 }
 
+/* Mise en place des éléments pour le lien de retour à la page d'accueil */
 .goToHome {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 142.6%;
   display: flex;
@@ -57,6 +43,8 @@
   color: #ff6060;
   margin-bottom: 10%;
 }
+
+/* Média query */
 
 @media screen and (min-width: 768px) {
   .errorPage p {

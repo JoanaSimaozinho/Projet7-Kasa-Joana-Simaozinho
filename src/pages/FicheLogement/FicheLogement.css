@@ -1,23 +1,30 @@
-.body {
-  margin: 20px;
-}
+/* Utilisation de la flexbox */
 
 .divAvis {
   display: flex;
   align-items: center;
 }
 
+/* Média quiery pour changer la position des éléments, 
+ils ne sont plus côte à côte mais en colonne (étoiles et utilisateur) */
 @media screen and (min-width: 768px) {
   .divAvis {
     flex-direction: column-reverse;
     justify-content: flex-end;
   }
 
+  /* Mise en place de la flexbox sur tout le fichier 
+  pour que les elements title, location, tags soient côte à côte 
+  avec les avis (étoiles et utilisateur)  */
+
   .divContainerElements {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
   }
+
+  /* Mise en place également de la flexbox pour les collapse 
+  description et équipements pour qu'ils soient côte à côte */
 
   .divCollapse {
     display: flex;

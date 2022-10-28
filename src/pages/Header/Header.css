@@ -1,7 +1,5 @@
-.body {
-  margin: 20px;
-}
-
+/* utilisation de la flexbox pour placer le logo et les liens 
+côte à côte et à l'opposé l'un de l'autre */
 .header {
   display: flex;
   align-items: center;
@@ -16,9 +14,12 @@
   width: 70%;
 }
 
+/* Utilisation de la flexbox pour les liens 
+pour qu'ils soient côte à côte */
 .linksHeader {
   display: flex;
 }
+
 .link {
   color: #ff6060;
   font-size: 12px;
@@ -32,6 +33,8 @@
   cursor: pointer;
 }
 
+/* Média query pour changer la taille de la police 
+ainsi que la marge entre les 2 liens */
 @media screen and (min-width: 768px) {
 
   .link {

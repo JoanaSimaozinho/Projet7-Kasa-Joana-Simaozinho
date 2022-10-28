@@ -1,3 +1,6 @@
+/* Marge mise au body par une class car sinon 
+le footer le feraît pas l'intégralité de la page
+ et aurait également le margin de 20px */
 .body {
   margin: 20px;
 }

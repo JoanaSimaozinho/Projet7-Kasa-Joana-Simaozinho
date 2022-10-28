@@ -1,6 +1,11 @@
+// Importation de react
+// Importation de Link de react router dom
+// Importation du fichier css du footer
+
 import * as React from "react";
 import "./ErrorPage.css";
 import { Link } from "react-router-dom";
+
 
 function ErrorPage() {
   return (

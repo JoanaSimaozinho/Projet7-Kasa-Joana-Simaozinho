@@ -1,9 +1,11 @@
+/* Image de fond de la banner */
 .card {
   background-image: url(../../../public/img/backgroundhome.png);
   filter: brightness(0.9);
   background-size: cover;
 }
 
+/* Max-width mis pour contenir le titre */
 .container {
   max-width: 191px;
 }
@@ -16,12 +18,11 @@
 .HomeParagraph {
   font-size: 24px;
   color: white;
-  /* width: 70%; */
   filter: drop-shadow(2px 4px 6px black);
   font-weight: 500;
 }
 
-.figure {
+.divCard {
   margin: 0;
   margin-bottom: 22px;
   border-radius: 10px;
@@ -31,6 +32,7 @@
   align-items: center;
 }
 
+/* Média query */
 @media screen and (min-width: 768px) {
   .HomeParagraph {
     font-size: 48px;

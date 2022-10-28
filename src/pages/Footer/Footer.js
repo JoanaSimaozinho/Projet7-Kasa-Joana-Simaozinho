@@ -1,3 +1,6 @@
+// Importation de react
+// Importation du fichier css du footer
+
 import * as React from "react";
 import "./Footer.css";
 

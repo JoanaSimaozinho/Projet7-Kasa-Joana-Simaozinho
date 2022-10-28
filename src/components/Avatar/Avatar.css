@@ -1,3 +1,5 @@
+/* Utilisation de la flexbox pour mettre le nom et la photo
+de l'utilisateur côte à côte */
 .avatar {
   width: 50%;
   display: flex;
@@ -16,12 +18,14 @@
   font-weight: 500;
 } 
 
+/* rendre la photo ronde et non carrée */
 .profilePicture {
   border-radius: 100%;
   width: 32px;
   height: 32px;
 }
 
+/* Média query */
 @media screen and (min-width: 768px) {
   .avatar {
     width: 100%;

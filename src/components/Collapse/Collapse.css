@@ -1,3 +1,4 @@
+/* Utilisation de la flexbox */
 .caracteristiques {
   display: flex;
   justify-content: space-between;
@@ -10,10 +11,12 @@
   padding-left: 5px;
 }
 
+/* Taille du nom du collapse (caractéristiques équipements) */
 .collapsName {
   font-size: 13px;
 }
 
+/* Mise en forme du contenu du collapse */
 .informations {
   color: #FF6060;
   background-color: #F6F6F6;
@@ -37,6 +40,7 @@
   margin: 0;
 }
 
+/* Media query */
 @media screen and (min-width: 768px) {
   .accordeon {
     width: 100%;

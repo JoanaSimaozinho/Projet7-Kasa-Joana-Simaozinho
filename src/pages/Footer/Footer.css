@@ -1,3 +1,5 @@
+/* Mise du margin à 0px sinon le footer 
+n'apparaît pas entièrement car il est coupé par la marge */
 body {
   margin: 0;
 }
@@ -11,6 +13,8 @@ body {
   margin-bottom: 15px;
 }
 
+/* Utilisation de la flexbox pour que les élèments soient centrés et en colonne 
+et pour ne pas avoir a changer les marges et les paddings à chaque taille d'écran */
 .footerDisplay {
   display: flex;
   flex-direction: column;
@@ -23,6 +27,7 @@ body {
   margin-bottom: 62px;
 }
 
+/* Média query pour changer la taille de la police ainsi que la taille du logo */
 @media screen and (min-width: 1024px) {
   .rightsReserved {
     font-size: 24px;
