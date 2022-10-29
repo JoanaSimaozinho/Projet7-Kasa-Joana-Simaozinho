@@ -17,7 +17,9 @@ export default function Home(props) {
       {/* Je crée le contenu qui apparaît dans le composant banner de la page d'accueil
       puis j'utilise les props dans le fichier banner pour le faire apparaître dynamiquement
       Sinon le banner de la page à propos contiendra aussi le contenu */}
-      <Banner content="Chez vous, partout et ailleurs" />
+      <div className="bannerHome">
+        <Banner content="Chez vous, partout et ailleurs" />
+      </div>
       <Cards />
     </div>
   );

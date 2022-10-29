@@ -4,3 +4,11 @@ le footer le feraît pas l'intégralité de la page
 .body {
   margin: 20px;
 }
+
+/* Image de font de la banner de la page d'accueil */
+.bannerHome {
+  background-image: url(../../../public/img/backgroundhome.png);
+  filter: brightness(0.9);
+  background-size: cover;
+  border-radius: 10px;
+}

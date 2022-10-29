@@ -1,3 +1,11 @@
+/* Image de fond de la page à props */
+.bannerApropos {
+  background-image: url(../../../public/img/backgroundimage.png);
+  filter: brightness(0.9);
+  background-size: cover;
+  border-radius: 10px;
+}
+
 /* Media query fait pour changer seulement la taille des collapse
 et aison les centrer avec la flexbox */
 @media screen and (min-width: 768px) {

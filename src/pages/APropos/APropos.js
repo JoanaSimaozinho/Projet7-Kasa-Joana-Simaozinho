@@ -11,7 +11,10 @@ function APropos() {
     <div className="body">
 
       {/* éléments banner et collapse qui sont réutilisés dans la page a propos */}
-      <Banner />
+      <div className="bannerApropos">
+        <Banner />
+      </div>
+
       <div className="divCollapseAPropos">
 
         {/* Changement du titre et du contenu du collapse qui est affiché à partir du fichier collapse grâce aux props */}
