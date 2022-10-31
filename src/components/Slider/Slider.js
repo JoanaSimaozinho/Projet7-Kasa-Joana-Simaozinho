@@ -51,15 +51,7 @@ export default function Slider(props) {
       <div className="slider-container" style={{ transform: `translateX(-${slideIdx * imgSize()}px)` }}>
         {/* On boucle sur les images */}
         {props.pictures.map((picture) => < img className='slider-container-img' alt="slider" src={picture} key={picture} />)}
-        <div className="bullet">
-          {/* Boucle sur les images */}
-          {props.pictures.map((picture, index) =>
-          <span className="material-icons point material-icons-bullet" key={picture} onClick={event => handleClick(event, index)}>
-            {/* Si slideIdx est la même que l'index alors on change l'icon bullet point */}
-            radio_button_{slideIdx === index ? 'checked' : 'unchecked'}
-          </span>
-        )}
-        </div>
+        
       </div>
       <div className="slider-controls">
         <span className="material-icons material-icons-chevron" onClick={onPrev}>
@@ -69,6 +61,15 @@ export default function Slider(props) {
           chevron_right
         </span>
       </div>
+      <div className="bullet">
+          {/* Boucle sur les images */}
+          {props.pictures.map((picture, index) =>
+          <span className="material-icons point material-icons-bullet" key={picture} onClick={event => handleClick(event, index)}>
+            {/* Si slideIdx est la même que l'index alors on change l'icon bullet point */}
+            radio_button_{slideIdx === index ? 'checked' : 'unchecked'}
+          </span>
+        )}
+        </div>
     </div>
   )
 }

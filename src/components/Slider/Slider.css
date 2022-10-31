@@ -65,11 +65,11 @@ mise en place d'une transition pour les sliders */
 }
 
 .bullet {
-  position: fixed;
+  bottom: 0;
+  position: absolute;
   display: flex;
   width: 100%;
-  height: 95%;
-  align-items: flex-end;
+  margin-bottom: 10px;
   justify-content: center;
 }
 
@@ -99,7 +99,7 @@ mise en place d'une transition pour les sliders */
   .slider {
     height: 450px;
   }
-  
+
   .material-icons-bullet {
     font-size: 30px;
   }
