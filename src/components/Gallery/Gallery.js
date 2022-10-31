@@ -30,8 +30,8 @@ export default function Gallery(props) {
         {/* Bouclage sur le slider avec .map() pour faire apparaître 
         les images de la fiche logement cliquée */}
       {props.pictures.map((picture, index) => (
-        <SwiperSlide>
-          <img key={index} src={picture} alt="photos" className="images" />
+        <SwiperSlide key={index}>
+          <img src={picture} alt="photos" className="images" />
         </SwiperSlide>
       ))}
     </Swiper>
