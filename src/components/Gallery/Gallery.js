@@ -7,14 +7,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import "./Slideshow.css";
+import "./Gallery.css";
 
 // importation de Navigation, Pagination, Mousewheel et keybors a partir de "swiper"
 // Importation du fichier css
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
-import "./Slideshow.css"
+import "./Gallery.css"
 
-export default function Slideshow(props) {
+export default function Gallery(props) {
   return (
     <div>
       <Swiper

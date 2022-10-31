@@ -7,7 +7,7 @@ import * as React from "react";
 import { Navigate, useParams } from "react-router-dom";
 
 import {
-  Slideshow,
+  Gallery,
   Titre,
   Tags,
   Avis,
@@ -38,7 +38,7 @@ export default function FicheLogement(props) {
       {/* Grâce au code précedent {annonces.pictures}, 
       {annonce.title}, etc on récupère les photos de l'annonce son titre,
       sa localisation, etc... */}
-      <Slideshow pictures={annonce.pictures} />
+      <Gallery pictures={annonce.pictures} />
       <div className="divContainerElements">
         <div>
           <Titre title={annonce.title} />
