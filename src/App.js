@@ -8,7 +8,9 @@ function App() {
   // Récupère toutes les routes crées dans le fichier RoutesPages
   return (
     <div>
-      <RoutesPages />
+      <main>
+        <RoutesPages />
+      </main>
     </div>
   );
 }

@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.divContainerElements {
+  margin-top: 20px;
+}
+
 /* Média quiery pour changer la position des éléments, 
 ils ne sont plus côte à côte mais en colonne (étoiles et utilisateur) */
 @media screen and (min-width: 768px) {
