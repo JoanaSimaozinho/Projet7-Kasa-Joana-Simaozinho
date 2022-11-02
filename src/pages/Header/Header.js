@@ -5,7 +5,8 @@ import * as React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
-// Fichier Header qui contient le lien ver la page d'accueil ou la page à propos
+// Fichier Header qui contient le lien ver la page d'accueil 
+// ou la page à propos
 
 function Header() {
   return (

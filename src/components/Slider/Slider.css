@@ -1,5 +1,6 @@
 /* Mise d'une hauteur a 200px pour le slider
- Mise d'un overflow hidden pour rendre invisible les autres images*/
+ Mise d'un overflow hidden pour rendre invisible 
+ les autres images*/
 
 .slider {
   overflow: hidden;
@@ -53,9 +54,16 @@ mise en place d'une transition pour les sliders */
   font-size: 50px;
   width: 100%;
 }
+.material-icons-chevron:hover {
+  cursor: pointer;
+}
 
 .material-icons-bullet {
   font-size: 15px;
+}
+
+.material-icons-bullet:hover {
+  cursor: pointer;
 }
 
 /* JUtilisation de la flexbox */

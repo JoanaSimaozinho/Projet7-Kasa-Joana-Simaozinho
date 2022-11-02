@@ -1,4 +1,5 @@
-/* utilisation de la flexbox pour placer le logo et les liens 
+/* utilisation de la flexbox pour placer 
+le logo et les liens 
 côte à côte et à l'opposé l'un de l'autre */
 .header {
   display: flex;

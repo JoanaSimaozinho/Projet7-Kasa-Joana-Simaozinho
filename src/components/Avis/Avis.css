@@ -1,4 +1,5 @@
-/* Utilisation de la flexbox pour mettre les étoiles côte à côte */
+/* Utilisation de la flexbox pour mettre les 
+étoiles côte à côte */
 .avis {
   display: flex;
   justify-content: space-between;
@@ -26,7 +27,8 @@
     justify-content: flex-end;
   }
 
-  /* Mise de l'élément à la fin de la div et changement de taille
+  /* Mise de l'élément à la fin de la div et 
+  changement de taille
    */
   .star {
     justify-content: flex-end;

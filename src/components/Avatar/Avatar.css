@@ -1,5 +1,5 @@
-/* Utilisation de la flexbox pour mettre le nom et la photo
-de l'utilisateur côte à côte */
+/* Utilisation de la flexbox pour mettre 
+le nom et la photo de l'utilisateur côte à côte */
 .avatar {
   width: 50%;
   display: flex;

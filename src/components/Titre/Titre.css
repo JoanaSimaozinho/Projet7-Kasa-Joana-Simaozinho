@@ -8,7 +8,8 @@
   margin-bottom: 5px;
 }
 
-/* Média query pour le changement de la taille de la police */
+/* Média query pour le changement de la taille 
+de la police */
 @media screen and (min-width: 768px) {
   .titre {
     font-size: 36px
