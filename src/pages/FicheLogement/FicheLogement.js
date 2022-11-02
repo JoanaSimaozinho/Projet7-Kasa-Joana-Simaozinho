@@ -19,7 +19,7 @@ import "./FicheLogement.css";
 
 
 export default function FicheLogement(props) {
-  // Utilisation de useParams pour paraméter la contante annonce
+  // Utilisation de useParams pour récupérer les paramètres daqns l'URL
   let params = useParams()
 
   // Constante qui récupère les données dans le fichier json
